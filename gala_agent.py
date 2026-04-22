@@ -33,20 +33,20 @@ print(response)
 
 
 query = "What's the weather like in Paris tonight? Will it be suitable for our fireworks display?"
-response = alfred.run(query)
+response = alfred.run(query, reset=False)
 
 print("🎩 Alfred's Response:")
 print(response)
 
 query = "One of our guests is from Qwen. What can you tell me about their most popular model?"
-response = alfred.run(query)
+response = alfred.run(query, reset=False)
 
 print("🎩 Alfred's Response:")
 print(response)
 
 
 query = "I need to speak with Dr. Nikola Tesla about recent advancements in wireless energy. Can you help me prepare for this conversation?"
-response = alfred.run(query)
+response = alfred.run(query, reset=False)
 
 print("🎩 Alfred's Response:")
 print(response)
